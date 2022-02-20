@@ -3,7 +3,18 @@ guid: 12688d8ef7fb1a64c9226f3e64770650
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VolleyBallBlue
+    second: {fileID: 4009191486264348004, guid: 12688d8ef7fb1a64c9226f3e64770650,
+      type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VolleyBallYellow
+    second: {fileID: 116776442780646931, guid: 12688d8ef7fb1a64c9226f3e64770650, type: 3}
   materials:
     materialImportMode: 1
     materialName: 0

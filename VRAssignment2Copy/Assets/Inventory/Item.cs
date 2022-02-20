@@ -10,7 +10,8 @@ public class Item: MonoBehaviour
         DuctTape,
         PenKnife,
         Remote,
-        Battery
+        Battery,
+        Key
     }
 
     public int numberOfUse = 1;
