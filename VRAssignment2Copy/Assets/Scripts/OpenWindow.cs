@@ -34,7 +34,7 @@ public class OpenWindow : UseItemOnThis
     public override void SubsequentActivation_IfAny()
     {
         //Change the code here ***************************
-        animator.SetTrigger("WindowClose");
+        animator.SetTrigger("WindowOpen");
         audio.PlayOneShot(dooropenclip);
         //**************************************************
     }

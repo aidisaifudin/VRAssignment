@@ -29,7 +29,14 @@ public class CollectItem : MonoBehaviour
         //else r.material.color = originalColor;
     }
 
-    void OnMouseDown()
+    //void OnMouseDown()
+    //{
+    //    Inventory.Instance.AddItem(GetComponent<Item>());
+    //    if(audio) audio.PlayOneShot(clip);
+    //    this.gameObject.SetActive(false);
+    //}
+
+    public void Hit()
     {
         Inventory.Instance.AddItem(GetComponent<Item>());
         if(audio) audio.PlayOneShot(clip);
